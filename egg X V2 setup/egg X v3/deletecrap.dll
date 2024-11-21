@@ -1,0 +1,4416 @@
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
+1  function calculateMagic(number) {
+2      if (number < 0) {
+3          return "Negative numbers are magic too!";
+4      }
+5      let result = number * 42;
+6      return result;
+7  }
+
+8  class Wizard {
+9      constructor(name, power) {
+10         this.name = name;
+11         this.power = power;
+12     }
+13 
+14     castSpell(spell) {
+15         if (this.power > 100) {
+16             return `${this.name} casts ${spell} with great strength!`;
+17         } else {
+18             return `${this.name} casts ${spell} weakly.`;
+19         }
+20     }
+21 }
+
+22  const harry = new Wizard("Harry", 150);
+23  console.log(harry.castSpell("Expecto Patronum"));
+
+24  function summonCreatures(numCreatures) {
+25      let creatures = [];
+26      for (let i = 0; i < numCreatures; i++) {
+27          creatures.push(`Creature ${i + 1}`);
+28      }
+29      return creatures;
+30  }
+
+31  let myCreatures = summonCreatures(5);
+32  console.log(myCreatures);
+
+33  while (true) {
+34      let adventure = Math.random();
+35      if (adventure > 0.8) {
+36          console.log("You found a treasure!");
+37          break;
+38      } else {
+39          console.log("Just another day of wandering...");
+40      }
+41  }
+
+42  function timeTravel(year) {
+43      let currentYear = 2024;
+44      return `Traveling from ${currentYear} to ${year}!`;
+45  }
+
+46  console.log(timeTravel(1776));
+
+47  const potionIngredients = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather"];
+48  potionIngredients.forEach(ingredient => {
+49      console.log(`Adding ${ingredient} to the potion.`);
+50  });
+
+51  function brewPotion(name) {
+52      return `Brewing a potion of ${name}...`;
+53  }
+
+54  console.log(brewPotion("Invisibility"));
+
+55  class Potion {
+56      constructor(name, effects) {
+57          this.name = name;
+58          this.effects = effects;
+59      }
+60 
+61      describe() {
+62          return `${this.name} has the following effects: ${this.effects.join(", ")}.`;
+63      }
+64  }
+
+65  const invisibilityPotion = new Potion("Invisibility", ["Invisible", "Silent"]);
+66  console.log(invisibilityPotion.describe());
+
+67  let spells = ["Lumos", "Aguamenti", "Accio"];
+68  function learnNewSpell(spell) {
+69      spells.push(spell);
+70      return `${spell} has been added to your spellbook.`;
+71  }
+
+72  console.log(learnNewSpell("Expelliarmus"));
+
+73  function duel(opponent) {
+74      let outcome = Math.random() > 0.5 ? "You win!" : "You lose!";
+75      return `Dueling ${opponent}: ${outcome}`;
+76  }
+
+77  console.log(duel("Voldemort"));
+
+78  const spellCooldowns = {
+79      "Lumos": 2
